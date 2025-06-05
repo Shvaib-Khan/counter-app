@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: aquamarine;
+    padding: 10px;
+    font-size: 2rem;
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#btn{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(41, 77, 236);
+}
